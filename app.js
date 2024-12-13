@@ -33,6 +33,7 @@ const syncDatabase = async () => {
 /* SET UP EXPRESS APPLICATION */
 // Import Express application
 const express = require("express");
+const cors = require("cors"); // Import CORS middleware
 // Create an Express application called "app"
 const app = express();
 
@@ -45,6 +46,7 @@ const apiRouter = require('./routes/index');
 const configureApp = async () => {
   // Middleware to handle request data and response
   app.use(express.json());  // Set up Express to parse JSON requests and generate JSON responses
+  app.use(cors()); // Add CORS middleware after initializing app
   app.use(express.urlencoded({ extended: false }));  // Express to parse requests encoded in URL format and querystring
 
   // Set up the Express application's main top-level route and attach all sub-routes to it
