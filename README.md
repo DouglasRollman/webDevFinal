@@ -1,3 +1,17 @@
+GROUP MEMBER NAMES: 
+
+DOUGLAS ROLLMAN, JOEL URENA, TANGEER MOSOBBIR
+
+
+GITHUB USERNAMES:
+
+douglaswrollman@gmail.com
+joelurena711@gmail.com
+tangeer.mosobbir73@myhunter.cuny.edu
+
+
+
+
 # server-starter-code
 
 This repository is the server (back-end) starter code for Final Project - Full-Stack CRUD Application.
